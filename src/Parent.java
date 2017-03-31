@@ -1,6 +1,4 @@
-
-
-public class Parent{
+ class Parent{
 	private void method1()
 	{
 		System.out.println ("Parent's method1()");
@@ -17,7 +15,15 @@ class Child extends Parent {
 	}
 	public static void main(String args[]) 
 	{
-	Parent p = new Child();
+	Child p = new Child();
 	p.method2();
 	}
 }
+
+
+//Output:
+/*
+  Parent's method2()
+ 
+  Parent's method1()
+*/
