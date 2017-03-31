@@ -22,7 +22,7 @@ class Child extends Parent {
 
 
 //Output:
-/*
+/*c.
   Parent's method2()
  
   Parent's method1()
